@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-box">
+        <h1>Simple Quiz</h1>
+        <p id="question">What is 2 + 2?</p>
+        
+        <button class="option" onclick="checkAnswer(this, '4')">4</button>
+        <button class="option" onclick="checkAnswer(this, '5')">5</button>
+        <button class="option" onclick="checkAnswer(this, '3')">3</button>
+        <button class="option" onclick="checkAnswer(this, '6')">6</button>
+        
+        <p id="message"></p>
+        <button id="next-btn" onclick="nextQuestion()">Next Question</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
